@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online store</title>
+    <!---------bootstrap cdn-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!------header-->
+    <header class="bg-light">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4 col-sm-12 col-12">
+            <div class="btn-group">
+              <button
+                class="btn border dropdown-toggle my-md-4 my-2"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                > USD
+              </button>
+              <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">KSH</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 text-center">
+            <h2 class="my-md-3 site-title">ONLINE STORE</h2>
+          </div>
+          <div class="col-md-4 col-12 text-right">
+            <p class="my-md-4 header-links">
+              <a href="#" class="text-secondary px-2">sign in</a>
+              <a href="#" class="text-secondary px-1">create an account</a>
+              <a href="#" class="text-secondary px-2">sign in</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html"
+                  >HOME<span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="women.html">WOMEN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="men.html">MEN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="kids.html">KIDS</a>
+              </li>
+             
+              <li class="nav-item">
+                <a class="nav-link" href="#">REGISTER</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">LOGIN</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a
+                  class="nav-link disabled"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Disabled</a
+                
+              </li> -->
+            </ul>
+          </div>
+          <div class="navbar-nav">
+            <li>
+              <svg
+                width="1em"
+                height="1em"
+                viewBox="0 0 16 16"
+                class="bi bi-search"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"
+                />
+                <path
+                  fill-rule="evenodd"
+                  d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"
+                />
+              </svg>
+            </li>
+            <li>
+              <svg
+                width="1em"
+                height="1em"
+                viewBox="0 0 16 16"
+                class="bi bi-bucket"
+                fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2.522 5H2a.5.5 0 0 0-.494.574l1.372 9.149A1.5 1.5 0 0 0 4.36 16h7.278a1.5 1.5 0 0 0 1.483-1.277l1.373-9.149A.5.5 0 0 0 14 5h-.522A5.5 5.5 0 0 0 2.522 5zm1.005 0h8.945a4.5 4.5 0 0 0-8.945 0zm9.892 1H2.581l1.286 8.574A.5.5 0 0 0 4.36 15h7.278a.5.5 0 0 0 .494-.426L13.42 6z"
+                />
+              </svg>
+            </li>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+     
+
+        <!-------products women-->
+        <div class="container mt-5">
+            <h5>MEN</h5>
+             <div class="row text-center py-5">
+                 
+                 <div class="col-md-3 col-sm-6 my-3 my-md-0">
+                     <form action="index.php"method="post">
+                         <div class="card shadow">
+                             <div>
+                                 <img src="./images/shoes4.jpg" alt=""class="img-fluid card-img-top">
+                             </div>
+                             <div class="card-body">
+                                 <h5 class="card-title">CONVERSE</h5>
+                                 <P class="card-text">the best shoes</P>
+                                 <h5>
+                                     <small><s class="text-secondary">7000</s></small>
+                                     <span class="price">5000</span>
+                                 </h5>
+                                 <button class="btn btn-warning my-3"type="submit" name="Add">Add to cart<i class="fas fa-shopping-cart"></i>></i></button>
+                             </div>
+                         </div>
+                     </form>
+                 </div>
+                  <div class="col-md-3 col-sm-6 my-3 my-md-0">
+                       <form action="index.php"method="post">
+                         <div class="card shadow">
+                             <div>
+                                 <img src="./images/shoes4.jpg" alt=""class="img-fluid card-img-top">
+                             </div>
+                             <div class="card-body">
+                                 <h5 class="card-title">CONVERSE</h5>
+                                 <P class="card-text">the best shoes</P>
+                                 <h5>
+                                     <small><s class="text-secondary">7000</s></small>
+                                     <span class="price">5000</span>
+                                 </h5>
+                                 <button class="btn btn-warning my-3"type="submit" name="Add">Add to cart<i class="fas fa-shopping-cart"></i>></i></button>
+                             </div>
+                         </div>
+                     </form>
+                  </div>
+                   <div class="col-md-3 col-sm-6 my-3 my-md-0"> <form action="index.php"method="post">
+                         <div class="card shadow">
+                             <div>
+                                 <img src="./images/shoes4.jpg" alt=""class="img-fluid card-img-top">
+                             </div>
+                             <div class="card-body">
+                                 <h5 class="card-title">CONVERSE</h5>
+                                 <P class="card-text">the best shoes</P>
+                                 <h5>
+                                     <small><s class="text-secondary">7000</s></small>
+                                     <span class="price">5000</span>
+                                 </h5>
+                                 <button class="btn btn-warning my-3"type="submit" name="Add">Add to cart<i class="fas fa-shopping-cart"></i>></i></button>
+                             </div>
+                         </div>
+                     </form></div>
+                    <div class="col-md-3 col-sm-6 my-3 my-md-0"> <form action="index.php"method="post">
+                         <div class="card shadow">
+                             <div>
+                                 <img src="./images/shoes4.jpg" alt=""class="img-fluid card-img-top">
+                             </div>
+                             <div class="card-body">
+                                 <h5 class="card-title">CONVERSE</h5>
+                                 <P class="card-text">the best shoes</P>
+                                 <h5>
+                                     <small><s class="text-secondary">7000</s></small>
+                                     <span class="price">5000</span>
+                                 </h5>
+                                 <button class="btn btn-warning my-3"type="submit" name="Add">Add to cart<i class="fas fa-shopping-cart"></i>></i></button>
+                             </div>
+                         </div>
+                     </form>
+                    </div>
+            </div>
+        </div>
+        
+        <div class="container mt-5">
+            
+             <div class="row text-center py-5">
+                 
+                 <div class="col-md-3 col-sm-6 my-3 my-md-0">
+                     <form action="index.php"method="post">
+                         <div class="card shadow">
+                             <div>
+                                 <img src="./images/shoes4.jpg" alt=""class="img-fluid card-img-top">
+                             </div>
+                             <div class="card-body">
+                                 <h5 class="card-title">CONVERSE</h5>
+                                 <P class="card-text">the best shoes</P>
+                                 <h5>
+                                     <small><s class="text-secondary">7000</s></small>
+                                     <span class="price">5000</span>
+                                 </h5>
+                                 <button class="btn btn-warning my-3"type="submit" name="Add">Add to cart<i class="fas fa-shopping-cart"></i>></i></button>
+                             </div>
+                         </div>
+                     </form>
+                 </div>
+                  <div class="col-md-3 col-sm-6 my-3 my-md-0">
+                       <form action="index.php"method="post">
+                         <div class="card shadow">
+                             <div>
+                                 <img src="./images/shoes4.jpg" alt=""class="img-fluid card-img-top">
+                             </div>
+                             <div class="card-body">
+                                 <h5 class="card-title">CONVERSE</h5>
+                                 <P class="card-text">the best shoes</P>
+                                 <h5>
+                                     <small><s class="text-secondary">7000</s></small>
+                                     <span class="price">5000</span>
+                                 </h5>
+                                 <button class="btn btn-warning my-3"type="submit" name="Add">Add to cart<i class="fas fa-shopping-cart"></i>></i></button>
+                             </div>
+                         </div>
+                     </form>
+                  </div>
+                   <div class="col-md-3 col-sm-6 my-3 my-md-0"> <form action="index.php"method="post">
+                         <div class="card shadow">
+                             <div>
+                                 <img src="./images/shoes4.jpg" alt=""class="img-fluid card-img-top">
+                             </div>
+                             <div class="card-body">
+                                 <h5 class="card-title">CONVERSE</h5>
+                                 <P class="card-text">the best shoes</P>
+                                 <h5>
+                                     <small><s class="text-secondary">7000</s></small>
+                                     <span class="price">5000</span>
+                                 </h5>
+                                 <button class="btn btn-warning my-3"type="submit" name="Add">Add to cart<i class="fas fa-shopping-cart"></i>></i></button>
+                             </div>
+                         </div>
+                     </form></div>
+                    <div class="col-md-3 col-sm-6 my-3 my-md-0"> <form action="index.php"method="post">
+                         <div class="card shadow">
+                             <div>
+                                 <img src="./images/shoes4.jpg" alt=""class="img-fluid card-img-top">
+                             </div>
+                             <div class="card-body">
+                                 <h5 class="card-title">CONVERSE</h5>
+                                 <P class="card-text">the best shoes</P>
+                                 <h5>
+                                     <small><s class="text-secondary">7000</s></small>
+                                     <span class="price">5000</span>
+                                 </h5>
+                                 <button class="btn btn-warning my-3"type="submit" name="Add">Add to cart<i class="fas fa-shopping-cart"></i>></i></button>
+                             </div>
+                         </div>
+                     </form>
+                    </div>
+            </div>
+        </div>
+       
+         <div class="container mt-5">
+            
+             <div class="row text-center py-5">
+                 
+                 <div class="col-md-3 col-sm-6 my-3 my-md-0">
+                     <form action="index.php"method="post">
+                         <div class="card shadow">
+                             <div>
+                                 <img src="./images/shoes4.jpg" alt=""class="img-fluid card-img-top">
+                             </div>
+                             <div class="card-body">
+                                 <h5 class="card-title">CONVERSE</h5>
+                                 <P class="card-text">the best shoes</P>
+                                 <h5>
+                                     <small><s class="text-secondary">7000</s></small>
+                                     <span class="price">5000</span>
+                                 </h5>
+                                 <button class="btn btn-warning my-3"type="submit" name="Add">Add to cart<i class="fas fa-shopping-cart"></i>></i></button>
+                             </div>
+                         </div>
+                     </form>
+                 </div>
+                  <div class="col-md-3 col-sm-6 my-3 my-md-0">
+                       <form action="index.php"method="post">
+                         <div class="card shadow">
+                             <div>
+                                 <img src="./images/shoes4.jpg" alt=""class="img-fluid card-img-top">
+                             </div>
+                             <div class="card-body">
+                                 <h5 class="card-title">CONVERSE</h5>
+                                 <P class="card-text">the best shoes</P>
+                                 <h5>
+                                     <small><s class="text-secondary">7000</s></small>
+                                     <span class="price">5000</span>
+                                 </h5>
+                                 <button class="btn btn-warning my-3"type="submit" name="Add">Add to cart<i class="fas fa-shopping-cart"></i>></i></button>
+                             </div>
+                         </div>
+                     </form>
+                  </div>
+                   <div class="col-md-3 col-sm-6 my-3 my-md-0"> <form action="index.php"method="post">
+                         <div class="card shadow">
+                             <div>
+                                 <img src="./images/shoes4.jpg" alt=""class="img-fluid card-img-top">
+                             </div>
+                             <div class="card-body">
+                                 <h5 class="card-title">CONVERSE</h5>
+                                 <P class="card-text">the best shoes</P>
+                                 <h5>
+                                     <small><s class="text-secondary">7000</s></small>
+                                     <span class="price">5000</span>
+                                 </h5>
+                                 <button class="btn btn-warning my-3"type="submit" name="Add">Add to cart<i class="fas fa-shopping-cart"></i>></i></button>
+                             </div>
+                         </div>
+                     </form></div>
+                    <div class="col-md-3 col-sm-6 my-3 my-md-0"> <form action="index.php"method="post">
+                         <div class="card shadow">
+                             <div>
+                                 <img src="./images/shoes4.jpg" alt=""class="img-fluid card-img-top">
+                             </div>
+                             <div class="card-body">
+                                 <h5 class="card-title">CONVERSE</h5>
+                                 <P class="card-text">the best shoes</P>
+                                 <h5>
+                                     <small><s class="text-secondary">7000</s></small>
+                                     <span class="price">5000</span>
+                                 </h5>
+                                 <button class="btn btn-warning my-3"type="submit" name="Add">Add to cart<i class="fas fa-shopping-cart"></i>></i></button>
+                             </div>
+                         </div>
+                     </form>
+                    </div>
+            </div>
+        </div>
+        <!--- end women products-->
+    </main>
+    <!-----footer-->
+    <footer id="footer" class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-12">
+                    <h5>ABOUT US</h5>
+                    <P class="font-size-14">We are the leading online shoe<br>
+                    store in Kenya</P>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <h5>NEWSLETTER</h5>
+                    <form class="form-row">
+                        <div class="col">
+                            <input type="text" class="form-control"placeholder="Email">
+                        </div>
+                        <div class="col">
+                            <button class="btn btn-primary mb-2">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-2 col-12">
+                     <h5>INFORMATION</h5>
+                     <div class="d-flex flex-column flex-wrap">
+                         <a href="" class="font-size-14 text-white pd-1">about</a>
+                         <a href="" class="font-size-14 text-white pd-1">about</a>
+                         <a href="" class="font-size-14 text-white pd-1">about</a>
+                         <a href="" class="font-size-14 text-white pd-1">about</a>
+                     </div>
+                </div>
+                <div class="col-lg-1 col-12">
+                     <h5>INFORMATION</h5>
+                     <div class="d-flex flex-column flex-wrap">
+                         <a href="" class="font-size-14 text-white pd-1">about</a>
+                         <a href="" class="font-size-14 text-white pd-1">about</a>
+                         <a href="" class="font-size-14 text-white pd-1">about</a>
+                         <a href="" class="font-size-14 text-white pd-1">about</a>
+                     </div>
+                </div>
+            </div>
+
+        </div>
+      
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+/*google fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&family=Roboto&display=swap");
+
+.header-links a {
+  font-size: 1.2em;
+  text-decoration: none;
+}
+.navbar-nav {
+  padding: 1em 0em;
+}
+
+.navbar-nav.nav-link {
+  font-size: 1em;
+}
+.carousel-inner > .carousel-item {
+  height: 600px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
